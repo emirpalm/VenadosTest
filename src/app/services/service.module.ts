@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule  } from '@angular/common/http';
 
 import {
-    GameService
+    GameService,
+    PlayerService
    } from './service.index';
 
 
@@ -13,7 +14,8 @@ import {
         HttpClientModule
     ],
     providers: [
-      GameService
+      GameService,
+      PlayerService
     ],
     declarations: []
   })
